@@ -1,0 +1,21 @@
+<Request>
+    <Subject>
+        <Attribute>
+            <AttributeValue>admin</AttributeValue>
+        </Attribute>
+    </Subject>
+    <Action>
+        <Attribute
+              AttributeId="urn:oasis:names:tc:xacml:1.0:action:action-id"
+              DataType="http://www.w3.org/2001/XMLSchema#string">
+            <AttributeValue>secure_area</AttributeValue>
+        </Attribute>
+    </Action>
+    <Resource>
+        <Attribute
+              AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id"
+              DataType="http://www.w3.org/2001/XMLSchema#string">
+            <AttributeValue>imagesvg</AttributeValue>
+        </Attribute>
+    </Resource>
+</Request>
