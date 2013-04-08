@@ -3,18 +3,23 @@ SVG_XACML
 
 
 Main program filename: pcp.sh
+
 What: An enhancement to XACML to support filtering of SVG images.
+
 Why: Final project for INFR 4660U (Web Services and eBusiness Security)
+
 When: April 7th, 2013
+
 Author: Daniel Snider
 
-Requirements:
+##Requirements:
     Java
     xml_grep
     sunxacml.jar
     samples.jar
+    
 
-Usage:
+##Usage:
     ./pcp.sh [request.xml] [policy.xml] [secured directory]
     ./pcp.sh request.xml policy.xml ./secure/
 
